@@ -1,5 +1,5 @@
 
-CREATE DATABASE ice_creamDB;
+CREATE DATABASE bamazon;
 
 use bamazon;
 
@@ -48,3 +48,5 @@ values (703, 'tall glasses', 'household items', 14.00, 47);
 
 insert into products (item_id, product_name, department_name, price, stock_quantity)
 values (705, 'mugs', 'household items', 10.00, 47);
+
+SELECT*FROM bamazon.products;
